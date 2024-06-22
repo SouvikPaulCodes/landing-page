@@ -1,0 +1,166 @@
+.logo {
+    width: 300px;
+    height: auto;
+    margin-right: auto;
+}
+
+body {
+    margin: 0;
+}
+
+.poster {
+    width: 500px;
+    height: auto;
+}
+
+.header, .copyright {
+    background-color: black;
+    padding: 20px 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.top, .bottom {
+    display: flex;
+}
+
+.hero {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+a, .normal {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.bottom {
+    flex: 1 1 0;
+}
+
+.normal {
+    margin: 20px 0; 
+}
+
+.top{
+    gap: 20px;
+}
+
+.bottom button {
+    border: 0;
+    padding: 6px;
+    font-size: 18px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.content {
+    padding: 40px;
+    padding-bottom: 60px;
+}
+
+.title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.profile {
+    border-radius: 10%;
+    width: 200px;
+    height: 200px;
+    border-color: gold;
+    border: 3px;
+}
+
+.name {
+    font-size: 20px;
+    text-align: center;
+}
+
+.movie {
+    background-color: #e5e7eb;
+    padding: 50px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quoter {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.whole {
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    gap: 100px;
+    padding: 30px 20px;
+}
+
+.text, .foot {
+    color: #e5e7eb;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    padding: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.one {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.text {
+    text-align: left;
+}
+
+.foot {
+    background-color: #3882f6;
+    border-color: #ffffff;
+    border-radius: 5px;
+    padding: 6px 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.copyright {
+    display: flex;
+    color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
