@@ -11,6 +11,7 @@ body {
 .poster {
     width: 500px;
     height: auto;
+    margin-left: auto;
 }
 
 .header, .copyright {
@@ -41,7 +42,7 @@ a, .normal {
 }
 
 .bottom {
-    flex: 1 1 0;
+    flex: 1 1 0;;
 }
 
 .normal {
